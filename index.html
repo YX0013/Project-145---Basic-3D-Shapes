@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-dodecahedron position="0 1 -4" rotation="0 90 0" color="#05fa98" radius="1"></a-dodecahedron>
+      <a-octahedron position="3 1 -4" rotation="0 270 0" color="#4205fa" radius="1"></a-octahedron>
+      <a-ring position="6 1 -4" color="#7f05fa" radius-inner="0.5" radius-outer="1"></a-ring>
+      <a-torus-knot position="9 1 -4" color="#fa05f2" arc="180" p="2" q="7" radius="0.6" radius-tubular="0.05"></a-torus-knot>
+      <a-torus position="-3 1 -4" color="#b0fa05" arc="360" radius="0.8" radius-tubular="0.1"></a-torus>
+      <a-icosahedron position="-6 1 -4" rotation="5 289 0" color="#fab005" radius="1"></a-icosahedron>
+      <a-tetrahedron position="-9 1 -4" rotation="33 33 0" color="#fa4e05" radius="1"></a-tetrahedron>
+      <a-cone scale="0.5 0.5 0.5" position="1.5 1 -2" color="#0536fa" radius-bottom="0.5" radius-top="0"></a-cone>
+      <a-cylinder scale="0.5 0.5 0.5" position="-1.5 1 -2" color="#faee05" theta-start="50" theta-length="330" side="double" radius="0.5"></a-cylinder>
+      <a-circle scale="0.5 0.5 0.5" position="4.5 1 -2" color="#b005fa" radius="0.5"></a-circle>
+      <a-sphere scale="0.5 0.5 0.5" position="-4.5 1 -2" color="#fa7b05" radius="0.5"></a-sphere>
+      <a-triangle scale="0.5 0.5 0.5" position="7.5 1 -2" color="#fa057b" vertex-c="1 0 0"></a-triangle>
+      <a-box rotation="74 283 8" scale="0.5 0.5 0.5" position="-7.5 1 -2" color="#fa0505" depth="0.5" height="0.5" width="0.5"></a-box>
+      <a-cylinder scale="0.5 0.5 0.5" position="1.5 1 -6" color="#05e5fa" height="3" radius="0.5"></a-cylinder>
+      <a-cylinder rotation="39 349 3" scale="0.5 0.5 0.5" position="-1.5 1 -6" color="#32fa05" height = "3" segments-radial="6"></a-cylinder>
+      
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="24" height="4" color="grey"></a-plane>
+      <a-sky color="black"></a-sky>
+      <a-light angle="120" distance="3" decay="3" color="white" position="1 1 1"></a-light>
+    </a-scene>
+  </body>
+</html>
